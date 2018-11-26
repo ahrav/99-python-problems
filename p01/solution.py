@@ -1,2 +1,4 @@
+import copy
+
 def answer(list_):
-    return None
+    return copy.deepcopy(list_[-1])
