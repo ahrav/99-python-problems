@@ -32,6 +32,7 @@ class TestP01(unittest.TestCase):
         a, b, c = ([1], [1, 1], [[1], 1, 1])
         list_ = [a, b, c]
         actual = answer(list_)
+        import pdb; pdb.set_trace()
         self.assertEqual(actual, c)
         self.assertFalse(actual is c)
 

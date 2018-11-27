@@ -1,2 +1,6 @@
+import copy
+
+# pure function
 def answer(list_):
-    return None
+    x = copy.deepcopy(list_[-1])
+    return x
